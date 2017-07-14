@@ -7,8 +7,8 @@ struct Party{
 struct Party initParty(){
     struct Player player1; 
     struct Player player2;
-    player1 = initPlayer("Joueur 1",'o');
-    player2 = initPlayer("Joueur 2",'x');
+    player1 = initPlayer("Joueur 1", 'x');
+    player2 = initPlayer("Joueur 2", 'o');
     struct Grid grid;
     grid = initGrid(7,6);
     struct Party party;
