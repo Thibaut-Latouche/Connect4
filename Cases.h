@@ -1,3 +1,0 @@
-struct Case{
-        char value;
-};
