@@ -1,3 +1,5 @@
+typedef struct Party Party;
+
 struct Party{
     struct Player player1;
     struct Player player2;

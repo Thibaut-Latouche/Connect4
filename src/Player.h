@@ -1,3 +1,5 @@
+typedef struct Player Player;
+
 struct Player{
         char nickname[50];        
         char token;
